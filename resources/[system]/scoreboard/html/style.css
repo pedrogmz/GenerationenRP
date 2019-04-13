@@ -1,0 +1,127 @@
+@import url('res/futurastd-medium.css');
+
+html {
+	color: #fff;
+}
+
+#wrap {
+	width: 530px;
+	max-width: 530px;
+	height: 727px;
+	min-height: 727px;
+	margin-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #252525;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+table {
+
+	text-align: left;
+}
+
+th, td {
+	padding-left: 25px;
+}
+
+th {
+	padding-top: 10px;
+	height: 40px;
+}
+
+#playerid {
+	position: absolute;
+	color: rgb(253, 253, 253);
+	font-size: 11px;
+	padding-top: 7px;
+	padding-left: 20px;
+}
+
+#playeridreal {
+	position: absolute;
+	color: #fff;
+	font-size: 12px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+#playerbox {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 11px;
+	padding-top: 7px;
+	padding-left: 65px;
+}
+
+#playerreal {
+	position: absolute;
+	color: #fff;
+	font-size: 12px;
+	padding-top: 20px;
+	padding-left: 65px;
+}
+
+
+
+tr {
+	background: #1d1d1d;
+
+	width: 261px;
+	display: block;
+	height: 40px;
+	position: relative;
+	margin-left: 2.5px;
+	text-align: center;
+	float: left;
+	font-size: 15px;
+	font-family: 'sans-serif';
+	border-top: 1px solid #2e2e2e;
+	border-bottom: 1px solid #1f1f1f;
+    /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);*/
+}
+
+.heading {
+
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	text-align: left;
+	font-family: 'sans-serif';
+    background: #1d1d1d;
+    padding-left: 15px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#website {
+	color: rgb(255, 255, 255);
+	margin-top: -41px;
+	margin-left: 360px;
+	font-size: 13px;
+	z-index: 9999;
+	position: absolute;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#discord {
+	margin-top: -27px;
+	margin-left: 360px;
+	font-size: 13px;
+	z-index: 9999;
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image {
+	margin-top: -43px;
+	margin-left: 320px;
+	z-index: 9999;
+	position: absolute;
+	width: 35px;
+	height: 35px;
+}

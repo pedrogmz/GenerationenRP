@@ -1,0 +1,471 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	
+		<style>
+             .general {display: none;}
+	         .main {display: none;}
+             .kniv {display: none;}
+			 .knivUI {display: none;} 
+             .batongUI {display: none;}
+             .pistolUI {display: none;}
+             .slagtraUI {display: none;}
+             .telefonUI {display: none;}
+             .elpistolUI {display: none;}
+             .dyrksetUI {display: none;}
+             .skottvestUI {display: none;}
+            
+
+		</style>
+		
+
+	
+	</head>
+
+    <body>
+            <div class="general">
+				
+					
+                <div class="main">
+                 <h2 class="sans">GENERATIONEN</span></h2>          
+                 <h3 class="sans">TILLVERKAREN</span></h3>
+                    <button id="kniv">Tillverka fällkniv</button>
+                    <button id="batong">Tillverka batong</button>
+                    <button id="elpistol">Tillverka elpistol</button>
+                    <button id="pistol">Tillverka pistol</button>
+                    <button id="slagtra">Tillverka slagträ</button>
+                    <button id="telefon">Tillverka telefon</button>
+                    <button id="dyrkset">Tillverka dyrkset</button>
+                    <button id="skottvest">Tillverka Kofot</button>
+                    <button id="exitcraft">X</button>
+                </div>
+
+            </div>
+            <div class='knivUI'>
+                <form id="kniv1">
+                    <h6 class="sans">GENERATIONEN</span></h6>
+                    <h5 class="sans">TILLVERKAREN</span></h5>
+                    <backgrund class="sans"></span></backgrund>
+                    <needthis class="sans">FÖLJANDE MATERIAL KRÄVS</span></needthis>
+                    <knivtra class="sans">x1 - Trä</span></knivtra>
+                    <knivmetall class="sans">x2 - Metall</span></knivmetall>
+                    <knivskruv class="sans">x3 - Skruvar</span></knivskruv>
+                    <button id="tillverkakniv" type="submit">Tillverka</button>
+                    <button id="tillbaka" type="button">Tillbaka</button> 	
+                </form>
+
+            </div>
+			
+		 <div class='batongUI'>
+                <form id="batong1">
+                    <h6 class="sans">GENERATIONEN</span></h6>
+                    <h5 class="sans">TILLVERKAREN</span></h5>
+                    <backgrund class="sans"></span></backgrund>
+                    <needthis class="sans">FÖLJANDE MATERIAL KRÄVS</span></needthis>
+                    <batongskinn class="sans">x1 - Skinn</span></batongskinn>
+                    <batongplast class="sans">x2 - Plast</span></batongplast>
+                    <knivskruv class="sans">x3 - Skruvar</span></knivskruv>
+                    <button id="tillverkakniv" type="submit">Tillverka</button>
+                    <button id="cancelbatong" type="button">Tillbaka</button> 	
+                </form>
+
+          </div>
+
+          <div class='pistolUI'>
+            <form id="pistol1">
+                <h6 class="sans">GENERATIONEN</span></h6>
+                <h5 class="sans">TILLVERKAREN</span></h5>
+                <backgrund class="sans"></span></backgrund>
+                <needthis class="sans">FÖLJANDE MATERIAL KRÄVS</span></needthis>
+                <aliminium class="sans">x4 - Aluminium</span></aliminium>
+                <knivmetall class="sans">x3 - Metall</span></knivmetall>
+                <knivskruv class="sans">x10 - Skruvar</span></knivskruv>
+                <button id="tillverkakniv" type="submit">Tillverka</button>
+                <button id="cancelpistol" type="button">Tillbaka</button> 	
+            </form>
+
+          </div>  
+          
+          <div class='slagtraUI'>
+            <form id="slagtra1">
+                <h6 class="sans">GENERATIONEN</span></h6>
+                <h5 class="sans">TILLVERKAREN</span></h5>
+                <backgrund class="sans"></span></backgrund>
+                <needthis class="sans">FÖLJANDE MATERIAL KRÄVS</span></needthis>
+                <knivtra class="sans">x3 - Trä</span></knivtra>
+                <traskruv class="sans">x10 - Skruvar</span></traskruv>
+                <button id="tillverkakniv" type="submit">Tillverka</button>
+                <button id="cancelslagtra" type="button">Tillbaka</button> 	
+            </form>
+
+          </div>   
+
+        </div>  
+          
+        <div class='skottvestUI'>
+          <form id="skottvest1">
+              <h6 class="sans">GENERATIONEN</span></h6>
+              <h5 class="sans">TILLVERKAREN</span></h5>
+              <backgrund class="sans"></span></backgrund>
+              <needthis class="sans">FÖLJANDE MATERIAL KRÄVS</span></needthis>
+              <batongskinn class="sans">x5 - Skinn</span></batongskinn>
+              <knivmetall class="sans">x8 - Metall</span></knivmetall>
+              <button id="tillverkakniv" type="submit">Tillverka</button>
+              <button id="cancelskottvest" type="button">Tillbaka</button> 	
+          </form>
+
+        </div>             
+
+          <div class='telefonUI'>
+            <form id="telefon1">
+                <h6 class="sans">GENERATIONEN</span></h6>
+                <h5 class="sans">TILLVERKAREN</span></h5>
+                <backgrund class="sans"></span></backgrund>
+                <needthis class="sans">FÖLJANDE MATERIAL KRÄVS</span></needthis>
+                <knivmetall class="sans">x3 - Metall</span></knivmetall>
+                <aliminium class="sans">x4 - Aluminium</span></aliminium>
+                <batteri class="sans">x1 - Batteri</span></batteri>
+                <button id="tillverkakniv" type="submit">Tillverka</button>
+                <button id="canceltelefon" type="button">Tillbaka</button> 	
+            </form>
+
+          </div>   
+
+        </div>   
+
+        <div class='dyrksetUI'>
+          <form id="dyrkset1">
+              <h6 class="sans">GENERATIONEN</span></h6>
+              <h5 class="sans">TILLVERKAREN</span></h5>
+              <backgrund class="sans"></span></backgrund>
+              <needthis class="sans">FÖLJANDE MATERIAL KRÄVS</span></needthis>
+              <knivmetall class="sans">x1 - Metall</span></knivmetall>
+              <aliminium class="sans">x2 - Aluminium</span></aliminium>
+              <button id="tillverkakniv" type="submit">Tillverka</button>
+              <button id="canceldyrkset" type="button">Tillbaka</button> 	
+          </form>
+
+        </div>   
+		  
+          <div class='elpistolUI'>
+            <form id="elpistol1">
+                <h6 class="sans">GENERATIONEN</span></h6>
+                <h5 class="sans">TILLVERKAREN</span></h5>
+                <backgrund class="sans"></span></backgrund>
+                <needthis class="sans">FÖLJANDE MATERIAL KRÄVS</span></needthis>
+                <knivmetall class="sans">x2 - Metall</span></knivmetall>
+                <aliminium class="sans">x2 - Aluminium</span></aliminium>
+                <batteri class="sans">x3 - Batterier</span></batteri>
+                <button id="tillverkakniv" type="submit">Tillverka</button>
+                <button id="cancelelpistol" type="button">Tillbaka</button> 	
+            </form>
+
+          </div>
+		
+
+	  
+	</body>
+	
+	<script type="text/javascript">
+	
+	
+	$(function() {
+		/* open the UI for user */
+		window.addEventListener('message', function(event) {
+		   
+    
+
+			if (event.data.type == "openGeneral"){
+                $('.main').css('display', 'block')
+				$('.general').css('display', 'block')
+                $('.kniv').css('display', 'none')						
+
+			} else if (event.data.type == "closeAll"){
+                $('.main').css('display', 'none')
+				$('.general').css('display', 'none')
+                $('.kniv').css('display', 'none')
+			} 
+			
+		});
+	});
+	
+
+	</script>
+	
+	<script type="text/javascript">	
+        $('#exitcraft').click(function(){
+            $('.general').css('display', 'none')
+            $('.main').css('display', 'none')
+                    
+            
+            $.post('http://esx_didrik_craftsystem/NUIFocusOff', JSON.stringify({}));
+            
+        })
+        
+         $('#kniv').click(function(){
+            $('.general').css('display', 'none')
+            $('.knivUI').css('display', 'block')
+			$('#kniv1').css('display', 'block')
+		
+        })
+	
+		
+		 $('#batong').click(function(){
+            $('.general').css('display', 'none')
+            $('.batongUI').css('display', 'block')
+			$('#batong1').css('display', 'block')
+			
+		
+        })
+         $('#tillbaka').click(function(){
+    
+            $('.general').css('display', 'block')
+            $('.knivUI').css('display', 'none')
+        })
+
+         $('#cancelbatong').click(function(){
+    
+            $('.general').css('display', 'block')
+            $('.batongUI').css('display', 'none')
+        })
+
+        $('#elpistol').click(function(){
+            $('.general').css('display', 'none')
+            $('.elpistolUI').css('display', 'block')
+			$('#elpistol1').css('display', 'block')
+			
+		
+        })
+
+        $('#cancelelpistol').click(function(){
+    
+          $('.general').css('display', 'block')
+          $('.elpistolUI').css('display', 'none')
+          $('#elpistol1').css('display', 'block')
+
+        })
+
+        $('#pistol').click(function(){
+            $('.general').css('display', 'none')
+            $('.pistolUI').css('display', 'block')
+            $('#pistol1').css('display', 'block')
+            
+        
+        })
+        
+        $('#cancelpistol').click(function(){
+        
+          $('.general').css('display', 'block')
+          $('.pistolUI').css('display', 'none')
+          $('#pistol1').css('display', 'block')
+
+        })
+
+        $('#slagtra').click(function(){
+            $('.general').css('display', 'none')
+            $('.slagtraUI').css('display', 'block')
+            $('#slagtra1').css('display', 'block')
+            
+        
+        })
+        
+        $('#cancelslagtra').click(function(){
+        
+          $('.general').css('display', 'block')
+          $('.slagtraUI').css('display', 'none')
+          $('#slagtra1').css('display', 'block')
+
+        })
+
+        $('#telefon').click(function(){
+            $('.general').css('display', 'none')
+            $('.telefonUI').css('display', 'block')
+            $('#telefon1').css('display', 'block')
+            
+        
+        })
+        
+        $('#canceltelefon').click(function(){
+        
+          $('.general').css('display', 'block')
+          $('.telefonUI').css('display', 'none')
+          $('#telefon1').css('display', 'block')
+
+        })
+
+        $('#dyrkset').click(function(){
+            $('.general').css('display', 'none')
+            $('.dyrksetUI').css('display', 'block')
+            $('#dyrkset1').css('display', 'block')
+            
+        
+        })
+        
+        $('#canceldyrkset').click(function(){
+        
+          $('.general').css('display', 'block')
+          $('.dyrksetUI').css('display', 'none')
+          $('#dyrkset1').css('display', 'block')
+
+        })
+
+        $('#skottvest').click(function(){
+            $('.general').css('display', 'none')
+            $('.skottvestUI').css('display', 'block')
+            $('#skottvest1').css('display', 'block')
+            
+        
+        })
+        
+        $('#cancelskottvest').click(function(){
+        
+          $('.general').css('display', 'block')
+          $('.skottvestUI').css('display', 'none')
+          $('#skottvest1').css('display', 'block')
+})
+        
+    $("#kniv1").submit(function(e) {
+        e.preventDefault(); // Prevent form from submitting
+        
+        $.post('http://esx_didrik_craftsystem/kniv1', JSON.stringify({
+			
+        }));
+		
+		$('.general').css('display', 'none')
+		$('.knivUI').css('display', 'none')
+		$('#kniv1').css('display', 'none')
+		
+		$.post('http://esx_didrik_craftsystem/NUIFocusOff', JSON.stringify({}));
+	});
+
+    $("#batong1").submit(function(e) {
+        e.preventDefault(); // Prevent form from submitting
+        
+        $.post('http://esx_didrik_craftsystem/batong1', JSON.stringify({
+			
+        }));
+		
+		$('.general').css('display', 'none')
+		$('.batongUI').css('display', 'none')
+		$('#batong1').css('display', 'none')
+		
+		$.post('http://esx_didrik_craftsystem/NUIFocusOff', JSON.stringify({}));
+	});
+
+    $("#elpistol1").submit(function(e) {
+        e.preventDefault(); // Prevent form from submitting
+        
+        $.post('http://esx_didrik_craftsystem/elpistol1', JSON.stringify({
+			
+        }));
+		
+		$('.general').css('display', 'none')
+		$('.elpistolUI').css('display', 'none')
+		$('#elpistol1').css('display', 'none')
+		
+		$.post('http://esx_didrik_craftsystem/NUIFocusOff', JSON.stringify({}));
+	});
+
+    $("#pistol1").submit(function(e) {
+        e.preventDefault(); // Prevent form from submitting
+        
+        $.post('http://esx_didrik_craftsystem/pistol1', JSON.stringify({
+			
+        }));
+		
+		$('.general').css('display', 'none')
+		$('.pistolUI').css('display', 'none')
+		$('#pistol1').css('display', 'none')
+		
+		$.post('http://esx_didrik_craftsystem/NUIFocusOff', JSON.stringify({}));
+	});
+
+    $("#slagtra1").submit(function(e) {
+        e.preventDefault(); // Prevent form from submitting
+        
+        $.post('http://esx_didrik_craftsystem/slagtra1', JSON.stringify({
+			
+        }));
+		
+		$('.general').css('display', 'none')
+		$('.slagtraUI').css('display', 'none')
+		$('#slagtra1').css('display', 'none')
+		
+		$.post('http://esx_didrik_craftsystem/NUIFocusOff', JSON.stringify({}));
+	});
+
+    $("#telefon1").submit(function(e) {
+        e.preventDefault(); // Prevent form from submitting
+        
+        $.post('http://esx_didrik_craftsystem/telefon1', JSON.stringify({
+			
+        }));
+		
+		$('.general').css('display', 'none')
+		$('.telefonUI').css('display', 'none')
+		$('#telefon1').css('display', 'none')
+		
+		$.post('http://esx_didrik_craftsystem/NUIFocusOff', JSON.stringify({}));
+	});
+
+    $("#dyrkset1").submit(function(e) {
+        e.preventDefault(); // Prevent form from submitting
+        
+        $.post('http://esx_didrik_craftsystem/dyrkset1', JSON.stringify({
+			
+        }));
+		
+		$('.general').css('display', 'none')
+		$('.dyrksetUI').css('display', 'none')
+		$('#dyrkset1').css('display', 'none')
+		
+		$.post('http://esx_didrik_craftsystem/NUIFocusOff', JSON.stringify({}));
+	});
+
+    $("#skottvest1").submit(function(e) {
+        e.preventDefault(); // Prevent form from submitting
+        
+        $.post('http://esx_didrik_craftsystem/skottvest1', JSON.stringify({
+			
+        }));
+		
+		$('.general').css('display', 'none')
+		$('.skottvestUI').css('display', 'none')
+		$('#skottvest1').css('display', 'none')
+		
+		$.post('http://esx_didrik_craftsystem/NUIFocusOff', JSON.stringify({}));
+	});
+
+
+
+
+	document.onkeyup = function(data){
+        if (data.which == 27){
+            $('.main').css('display', 'none')
+            $('.general').css('display', 'none')
+            $('.kniv').css('display', 'none')
+			$('.batong').css('display', 'none')
+			$('.knivUI').css('display', 'none')
+			$('#kniv1').css('display', 'none')
+			$('.batongUI').css('display', 'none')
+			$('.batong11').css('display', 'none')
+            $('.elpistolUI').css('display', 'none')
+			$('.elpistol1').css('display', 'none')
+            $('.pistolUI').css('display', 'none')
+			$('.pistol1').css('display', 'none')
+            $('.slagtraUI').css('display', 'none')
+			$('.slagtra1').css('display', 'none')
+            $('.telefonUI').css('display', 'none')
+			$('.telefon1').css('display', 'none')
+            $('.dyrksetUI').css('display', 'none')
+		    $('.dyrkset1').css('display', 'none')
+            $('.skottvestUI').css('display', 'none')
+		    $('.skottvest1').css('display', 'none')
+            $.post('http://esx_didrik_craftsystem/NUIFocusOff', JSON.stringify({}));
+        }
+    }
+
+	
+	</script>
+</html>

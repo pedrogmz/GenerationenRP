@@ -1,0 +1,93 @@
+Locales['en'] = {
+  -- Cloakroom
+  ['cloakroom'] = 'Omklädningsrum',
+  ['ems_clothes_civil'] = 'Civila kläder',
+  ['ems_clothes_ems'] = 'Arbetskläder',
+  -- Vehicles
+  ['veh_menu'] = 'fordon',
+  ['veh_spawn'] = 'tryck ~INPUT_CONTEXT~ för att få ut fordon',
+  ['store_vehicle'] = 'tryck ~INPUT_CONTEXT~ för att parkera fordon',
+  ['ambulance'] = 'ambulans',
+  ['Helikopter'] = 'ambulanshelikopter',
+  ['Akutläkarbil (stor)'] = 'helikopter',
+  -- Action Menu
+  ['hospital'] = 'Sjukhus',
+  ['revive_inprogress'] = 'återupplivning pågår',
+  ['revive_complete'] = 'återupplivningen lyckad ',
+  ['no_players'] = 'inga spelar i närheten',
+  ['no_vehicles'] = 'inga fordon i närheten',
+  ['isdead'] = 'är död',
+  ['unconscious'] = 'är inte medvetslös',
+  -- Boss Menu
+  ['deposit_society'] = 'eMS Deposit',
+  ['withdraw_society'] = 'eMS Withdraw',
+  ['boss_actions'] = 'chefmeny',
+  -- Misc
+  ['invalid_amount'] = '~r~ogiltigt antal',
+  ['open_menu'] = 'Tryck ~INPUT_CONTEXT~ för att öppna menyn',
+  ['deposit_amount'] = 'deponera mängd',
+  ['money_withdraw'] = 'mängd att ta ut',
+  -- F6 Menu
+  ['ems_menu'] = 'Sjukvårdsmeny',
+  ['ems_menu_title'] = 'Sjukvård - Meny',
+  ['ems_menu_revive'] = 'återuppliva person',
+  ['ems_menu_putincar'] = 'sätt in i fordon',
+  ['out_the_vehicle'] = 'ta ut ur fordon',
+  ['put_in_vehicle'] = 'sätt in i fordon',
+  ['handcuff'] = 'Lyft/släpp',
+  ['billing'] = 'Fakturera',
+  ['ems_menu_small'] = 'Bandage',
+  ['ems_menu_big'] = 'Första hjälpen',
+  ['drag'] = 'Fix',
+  -- Phone
+  ['alert_ambulance'] = 'SOS Alarm',
+  -- Death
+  ['respawn_at_hospital'] = 'Vill du bli transporterad till sjukhuset?',
+  ['yes'] = 'Ja',
+  ['please_wait'] = 'Du har tappat medvetandet! Vänta i ~b~',
+  ['minutes'] = ' minuter ',
+  ['seconds_fine'] = ' sekunder ~w~för att leva upp \nLev upp nu ~g~',
+  ['seconds'] = ' sekunder ~w~för att kvickna till.',
+  ['press_respawn_fine'] = '~w~ [Tryck ~b~E~w~]',
+  ['press_respawn'] = 'Tryck [~b~E~w~] för att leva upp på nytt.',
+  -- Revive
+  ['revive_help'] = 'återuppliva person',
+  
+    --fines
+  ['fine'] = 'Fakturera',
+  ['no_players_nearby'] = 'ingen spelar i närheten',
+  ['ambulance_fines'] = 'Fakturor',
+  ['fine_total'] = 'faktura : ',
+
+    --bugfix
+  ['pharmacy_take'] = 'Ta ut ',
+  ['medikit'] = 'första hjälpen',
+  ['bandage'] = 'bandage',
+  ['open_pharmacy'] = 'Tryck ~INPUT_CONTEXT~ för att öppna menyn.',
+  ['pharmacy_menu_title'] = 'förbands sortiment',
+  ['max_item'] = 'Du har för många.',
+  ['deposit_stock'] = 'Släng in',
+  ['take_stock'] = 'Ta ut',
+  ['inventory'] = 'Lager',
+  ['used_bandage'] = 'Använde bandage',
+  ['used_medikit'] = 'Använde första hjälpen',
+  ['not_enough_medikit'] = 'Slut på första hjälpen',
+  ['not_enough_bandage'] = 'Slut på bandage',
+  ['heal_inprogress'] = 'Läkning pågår',
+  ['heal_complete'] = 'Läkning slutförd',
+  ['healed'] = 'Läkt',
+  ['mission_complete'] = 'Uppdrag slutfört',
+  ['drive_search_pass'] = 'Leta efter den skadade',
+  ['must_in_vehicle'] = 'Du måste sitta i en ambulans',
+  ['taking_service'] = 'Du har ett uppdrag',
+
+  --npc job -qalle
+  ['customer_found'] = 'Du hittade en person, åk till honom för o hjälpa.',
+  ['close_to_client'] = 'Personen lyfts in där bak.',
+  ['take_me_to'] = 'Ta mig till denna plats.',
+  ['take_me_to_near'] = 'Ta mig till närmsta sjukhus, AKUT!',
+  ['client_unconcious'] = 'Personen avled tyvärr.',
+  ['arrive_dest'] = 'Tack! Du hjälpte mig i nöden.',
+  ['have_earned'] = 'Du tjänade ',
+  ['comp_earned'] = 'Företaget tjänade ',
+}

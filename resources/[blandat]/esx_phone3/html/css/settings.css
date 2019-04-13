@@ -1,0 +1,332 @@
+/* Settings css */
+
+/* Menu items */
+#app-settings > .app-inner ul > li.phoneMenuItem {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	border: none;
+	margin: 5px 5px -5px;
+	border-bottom: 1px solid #cfcfcf;
+}
+
+
+/* Icons */
+.menuItem > .fa-mobile {
+	background-color: #5098bb;
+}
+
+.plane {
+  margin-left: 3px;
+  margin-right: 6px;
+}
+
+/* Byt telefonnummer */
+
+.displayChangePhoneNumberDiv > input {
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  color: #777;
+}
+.displayChangePhoneNumberDiv > input.active {
+  color: inherit;
+}
+
+/* InfoBox */
+.changeNumberInfoBox {
+  width: calc(100% - 20px);
+  margin: 4px auto;
+}
+
+.changeNumberInfoBox > span {
+  margin-bottom: 5px;
+  display: inline-block;
+  padding: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+/* Button css */
+.displayChangePhoneNumberDiv > .buttonDiv{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.displayChangePhoneNumberDiv > .buttonDiv > button {
+  border: none;
+  padding: 5px 12px;
+  border-radius: 4px;
+}
+.displayChangePhoneNumberDiv > .buttonDiv > button.acceptButton.active {
+  color: inherit;
+  background-color: #555;
+}
+.displayChangePhoneNumberDiv > .buttonDiv > button.cancelButton.active {
+  color: inherit;
+  background-color: #555;
+}
+
+
+/* PROMPT USER */
+.promptDivWrapper {
+	background-color: rgba(152, 152, 152, 0.63);
+	color: #333;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.promptInnerDiv {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 15px 15px;
+	padding: 15px;
+	background-color: #fefefe;
+	color: #232323;
+	border-radius: 4px;
+	margin-top: 100px;
+	position: relative;
+}
+.promptInnerDiv > .promptMessage {
+	font-size: 1.2em;
+	max-width: 80%;
+	align-self: flex-start;
+	margin-left: 3px;
+}
+.promptInnerDiv > .promptIcon {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 5px 10px;
+}
+.promptInnerDiv > .promptInfoMessage {
+	font-size: 0.9em;
+	margin-top: 10px;
+	background-color: #ddd;
+	padding: 9px 14px;
+	border-radius: 4px;
+}
+/* promptButtonDiv */
+.promptButtonDiv {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	width: 100%;
+}
+.promptButtonDiv > button {
+	flex: 1;
+	border: none;
+	border-radius: 4px;
+	padding: 7px 14px;
+	background-color: #69ac60;
+	color: #fefefe;
+	box-shadow: 1px 1px 3px #777;
+}
+.promptButtonDiv > button:nth-child(2){
+	margin-left: 5px;
+}
+.promptButtonDiv.onlyClose > button {
+	margin: 0 !important;
+}
+/* Prompt colors */
+.promptInnerDiv.success > .promptIcon {
+	color: #8ec88f;
+}
+.promptInnerDiv.failed > .promptIcon {
+	color: #ba6363;
+}
+
+/* Button colors */
+.promptButtonDiv > button.greenButton {
+	background: linear-gradient(#76c562, #6dad47);
+	border: 1px solid #71b753;
+}
+.promptButtonDiv > button.orangeButton {
+	background: linear-gradient(#f5773c, #ff5100);
+	border: 1px solid #ed6d1c;
+}
+.promptButtonDiv > button.redButton {
+	background: linear-gradient(#c86060, #b62828);
+	border: 1px solid #d45d5d;
+}
+
+#app-settings .promptButtonDiv > button.active {
+	background: linear-gradient(#f2f2f2, #478eb4);
+	border: 1px solid #fff;
+}
+
+
+
+/* Setting: Om telefonen */
+
+.omTelefonenWrapperDiv, .changeTuneDiv {
+	background-color: #e0e0e0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: auto;
+}
+.omTelefonenWrapperDiv > img {
+	margin: 10px auto;
+	filter: grayscale(43%);
+	height: 96px;
+	width: 96px;
+}
+.omTelefonenWrapperDiv > div:first-child, .tuneListDiv:first-child {
+	margin-top: 7px;
+}
+.omTelefonenWrapperDiv > div, .tuneListDiv {
+	display: flex;
+	flex-direction: column;
+	width: calc(100% - 45px);
+	padding: 10px 15px;
+	background-color: #fefefe;
+	border-bottom: 1px solid #dadada;
+}
+
+/* Tune list active CSS */
+.tuneListDiv.active, #app-settings > .app-inner ul > li.backgroundMenuItem.active {
+	color: #232323;
+	background-color: #a5dd9b;
+}
+
+/* add margin if break */
+.omTelefonenWrapperDiv > div.margin {
+	margin-bottom: 3px;
+}
+
+#app-settings .spanTitle {
+	font-size: 0.9em;
+	color: #232323;
+}
+#app-settings .spanText {
+	font-size: 0.8em;
+	color: #444;
+}
+
+
+/* Settings: Genrella */
+.genDisplayDiv {
+	background-color: #fefefe;
+	color: #353535;
+	display: flex;
+	align-items: center;
+	padding: 7px 0px;
+}
+.genDisplayDiv:first-child {
+	padding-top: 12px;
+}
+
+/* span thing */
+.genDisplayDiv > span {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 15px;
+	border-bottom: 1px solid #d7d7d7;
+	margin-top: -1px;
+	flex: 2;
+	padding-bottom: 7px;
+}
+.genDisplayDiv:last-child > span {
+	border-bottom: none;
+}
+
+.genDisplayDiv > .icon {
+	background-color: #353645;
+    color: #fff;
+    width: 28px;
+    height: 25px;
+    border-radius: 7px;
+    text-align: center;
+    padding: 6px;
+    box-sizing: border-box;
+	margin: 0px 12px 5px;
+}
+.genDisplayDiv .toggleIcon {
+	color: #444;
+	margin-right: 1.5px;
+}
+.genDisplayDiv .toggleIcon.fa-toggle-on {
+	color: #3550c4;
+}
+.genDisplayDiv > .fa-power-off {
+	background-color: #d23333;
+}
+.genDisplayDiv > .fa-upload {
+	background-color: #1e7fbd;
+}
+.genDisplayDiv > .fa-window-close {
+	background-color: #712371;
+}
+.genDisplayDiv > .fa-headphones {
+	background-color: #1e7fbd;
+	padding-top: 6px
+}
+
+
+/* Settings: Spela nuvarande ringsignal */
+.playSoundDiv {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	width: calc(100% - 30px);
+	padding: 10px 15px;
+	background-color: #fefefe;
+	border-bottom: 1px solid #dadada;
+	color: #aaa;
+}
+.playSoundDiv > span {
+	background-color: #fefefe;
+}
+.playSoundDiv > .playIcon {
+	position: absolute;
+	right: 15px;
+}
+
+/* Settings:  theme, themes0 */
+
+#app-settings > .app-inner ul.themeList > li.phoneMenuItem {
+	padding: 18px;
+}
+#app-settings > .app-inner ul.themeList > .iterableListItem.active {
+	background-color: #a2de9f;
+	color: #232323;
+}
+
+.themedark {
+	background-color: none !important;
+	background: none !important;
+	border: 1px solid #adadad;
+}
+.themepink {
+	background-color: none !important;
+	background: none !important;
+	border: 1px solid #e981e8;
+}
+
+.themegold {
+	background-color: none !important;
+	background: none !important;
+	border: 1px solid #ecc53b;
+}
+.themered {
+	background-color: none !important;
+	background: none !important;
+	border: 1px solid #de4b4b;
+}
+.themedarkbackground {
+	background: linear-gradient(to top right, #414141, #111);
+	box-shadow: 1px 1px 5px #000;
+}
+#app-home .menu-icon i.themelightbackground {
+	color: #232323;
+}
+#app-home .menu-icon-inner.themelightbackground {
+	background: linear-gradient(to top right, #b9b9b9, #fff);
+	box-shadow: 1px 1px 5px #000;
+	color: #232323;
+}

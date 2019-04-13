@@ -1,0 +1,61 @@
+#app-car-play .app-inner {
+	padding: 0;
+}
+#car-play-main {
+	background: linear-gradient(to bottom, #000, #232323);
+	width: 242px;
+	height: 434px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+#car-play-main h1 {
+	color: #f1f1f1;
+}
+
+#car-play-main img {
+	width: 60px;
+	margin-right: 5px;
+}
+.menu-icon-car-play img {
+	width: 40px;
+	margin-left: -4px;
+	margin-top: 1px;
+}
+
+#car-play-main #info {
+	padding: 15px;
+	color: #bebebe;
+	font-size: 0.9em;
+}
+
+#spotifyRegisterButton, #spotifyLoginButton {
+	border: none;
+	outline: none;
+	margin-bottom: 10px;
+	border-radius: 28px;
+	font-size: 1em;
+	padding: 14px 0;
+	width: 190px;
+	background-color: #1ed760;
+	color: #f1f1f1;
+}
+
+#spotifyLoginButton {
+	background-color: #f1f1f1;
+	color: #232323;
+	margin-bottom: 50px;
+}
+
+#car-play-main .titleAndIconHolder {
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+
+}
+.spotifyButtonHolder {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}

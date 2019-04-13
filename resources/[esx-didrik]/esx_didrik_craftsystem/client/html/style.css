@@ -1,0 +1,483 @@
+body, html {
+	overflow-y: hidden;
+}
+/* main.css */
+
+button{ 
+	font-family: 'Play', sans-serif;
+	font-weight: bold;
+    position: relative;
+    color: white;
+    background-color:  #212121;
+	font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 20%;
+    height: 14%;
+    left: 10%;
+	bottom: -230px;
+	border-radius: 10px;
+	border-style: solid;
+    border-color: white;
+}
+
+button:hover{
+	border-style: solid;
+	border-color: rgb(255, 91, 91);
+   }
+
+#kniv{
+	bottom: -230px;
+	left: 7.5%;
+}
+
+#batong{
+	bottom: -230px;
+	left: 8.5%;
+}
+
+#slagtra{
+	bottom: -240px;
+	left: 7.5%;
+}
+
+#telefon{
+	bottom: -240px;
+	left: 8.5%;
+}
+
+#dyrkset{
+	bottom: -240px;
+	left: 9.5%;
+}
+
+#skottvest{
+	bottom: -240px;
+	left: 10.5%;
+}
+
+#elpistol{
+	bottom: -230px;
+	left: 9.5%;
+}
+
+#pistol{
+	bottom: -230px;
+	left: 10.5%;
+}
+
+#tillverkakniv{
+	bottom: -320px;
+	left: 1.5%;
+}
+
+#tillbaka{
+	bottom: -320px;
+	left: 58%;
+}
+
+#cancelelpistol{
+	bottom: -320px;
+	left: 58%;
+}
+
+#cancelpistol{
+	bottom: -320px;
+	left: 58%;
+}
+
+#canceltelefon{
+	bottom: -320px;
+	left: 58%;
+}
+
+
+#cancelbatong{
+	bottom: -320px;
+	left: 58%;
+}
+
+#cancelskottvest{
+	bottom: -320px;
+	left: 58%;
+}
+
+#canceldyrkset{
+	bottom: -320px;
+	left: 58%;
+}
+
+#cancelslagtra{
+	bottom: -320px;
+	left: 58%;
+}
+
+needthis{
+	position: absolute;
+	font-family: 'Play', sans-serif;
+	left: 31%;
+	bottom: 60%;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+}
+
+traskruv{
+	position: absolute;
+	font-family: 'Play', sans-serif;
+	left: 43%;
+	bottom: 44%;
+	font-size: 13.5px;
+	color: white;
+	font-weight: bold;
+}
+
+knivtra{
+	position: absolute;
+	font-family: 'Play', sans-serif;
+	left: 43%;
+	bottom: 52%;
+	font-size: 13.5px;
+	color: white;
+	font-weight: bold;
+}
+
+knivmetall{
+	position: absolute;
+	font-family: 'Play', sans-serif;
+	left: 43%;
+	bottom: 44%;
+	font-size: 13.5px;
+	color: white;
+	font-weight: bold;
+}
+
+knivskruv{
+	position: absolute;
+	font-family: 'Play', sans-serif;
+	left: 43%;
+	bottom: 36%;
+	font-size: 13.5px;
+	color: white;
+	font-weight: bold;
+}
+
+batongplast{
+	position: absolute;
+	font-family: 'Play', sans-serif;
+	left: 43%;
+	bottom: 44%;
+	font-size: 13.5px;
+	color: white;
+	font-weight: bold;
+}
+
+batongskinn{
+	position: absolute;
+	font-family: 'Play', sans-serif;
+	left: 43%;
+	bottom: 52%;
+	font-size: 13.5px;
+	color: white;
+	font-weight: bold;
+}
+
+batteri{
+	position: absolute;
+	font-family: 'Play', sans-serif;
+	left: 43%;
+	bottom: 36%;
+	font-size: 13.5px;
+	color: white;
+	font-weight: bold;
+}
+
+aliminium{
+	position: absolute;
+	font-family: 'Play', sans-serif;
+	left: 43%;
+	bottom: 52%;
+	font-size: 13.5px;
+	color: white;
+	font-weight: bold;
+}
+
+#exitcraft{
+	font-family: 'Play', sans-serif;
+	font-weight: bold;
+	position: absolute;
+	width: 4%;
+	height: 6%;
+	left: 93%;
+	bottom: 87%;
+	border-radius: 20px;
+	background-color: rgb(255, 91, 91);
+	font-size: 10px;
+	color: black;
+}
+
+backgrund{
+	position: absolute;
+	font-family: 'Play', sans-serif;
+	left: 25%;
+	bottom: 32%;
+	font-size: 50px;
+	background-color: #585859;
+	border-style: solid;
+    border-radius: 20px;
+	border-color: rgb(255, 91, 91);
+	width: 300px;
+	height: 140px;
+}
+
+
+.general{
+	background-repeat: no-repeat;
+	background-size: 620px 430px;
+	background-image: url(https://www.mxblue.nl/wp-content/uploads/2018/11/agif2opt.gif);
+	border-radius: 20px;
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+    padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+	font-family: 'Play', sans-serif;
+	border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.knivUI{
+	background-repeat: no-repeat;
+	background-size: 620px 430px;
+	background-image: url(https://www.mxblue.nl/wp-content/uploads/2018/11/agif2opt.gif);
+	border-radius: 20px;
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+    padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+	font-family: 'Play', sans-serif;
+	border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.skottvestUI{
+	background-repeat: no-repeat;
+	background-size: 620px 430px;
+	background-image: url(https://www.mxblue.nl/wp-content/uploads/2018/11/agif2opt.gif);
+	border-radius: 20px;
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+    padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+	font-family: 'Play', sans-serif;
+	border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.telefonUI{
+	background-repeat: no-repeat;
+	background-size: 620px 430px;
+	background-image: url(https://www.mxblue.nl/wp-content/uploads/2018/11/agif2opt.gif);
+	border-radius: 20px;
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+    padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+	font-family: 'Play', sans-serif;
+	border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.dyrksetUI{
+	background-repeat: no-repeat;
+	background-size: 620px 430px;
+	background-image: url(https://www.mxblue.nl/wp-content/uploads/2018/11/agif2opt.gif);
+	border-radius: 20px;
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+    padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+	font-family: 'Play', sans-serif;
+	border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.slagtraUI{
+	background-repeat: no-repeat;
+	background-size: 620px 430px;
+	background-image: url(https://www.mxblue.nl/wp-content/uploads/2018/11/agif2opt.gif);
+	border-radius: 20px;
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+    padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+	font-family: 'Play', sans-serif;
+	border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.pistolUI{
+	background-repeat: no-repeat;
+	background-size: 620px 430px;
+	background-image: url(https://www.mxblue.nl/wp-content/uploads/2018/11/agif2opt.gif);
+	border-radius: 20px;
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+    padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+	font-family: 'Play', sans-serif;
+	border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.batongUI{
+	background-repeat: no-repeat;
+	background-size: 620px 430px;
+	background-image: url(https://www.mxblue.nl/wp-content/uploads/2018/11/agif2opt.gif);
+	border-radius: 20px;
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+    padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+	font-family: 'Play', sans-serif;
+	border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.elpistolUI{
+	background-repeat: no-repeat;
+	background-size: 620px 430px;
+	background-image: url(https://www.mxblue.nl/wp-content/uploads/2018/11/agif2opt.gif);
+	border-radius: 20px;
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+    padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+	font-family: 'Play', sans-serif;
+	border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+h5{
+	position: absolute;
+	font-family: 'Play', sans-serif;
+	left: 28%;
+	bottom: 60%;
+	font-size: 35px;
+	color: white;
+}
+
+h6{
+	position: absolute;
+	font-family: 'Play', sans-serif;
+	left: 18%;
+	bottom: 55%;
+	font-size: 50px;
+	color: white;
+}
+
+
+h1{
+	color: black;
+	position: relative;
+	left: 48%;
+	top: 39%;
+}
+
+h3{
+	position: absolute;
+	font-family: 'Play', sans-serif;
+	left: 28%;
+	bottom: 52%;
+	font-size: 35px;
+	color: white;
+}
+
+h2{
+	position: absolute;
+	font-family: 'Play', sans-serif;
+	left: 18%;
+	bottom: 60%;
+	font-size: 50px;
+	color: white;
+}

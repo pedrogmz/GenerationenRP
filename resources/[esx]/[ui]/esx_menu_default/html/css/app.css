@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'Nexa Black';
+  src: url('../fonts/nexa_black.ttf') /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+  font-family: 'Nexa Regular';
+  src: url('../fonts/nexa_regular.ttf') /* TTF file for CSS3 browsers */
+}
+.menu {
+  background-size: 110% 110%;
+  padding: 20px;
+  font-family: 'Play', sans-serif;
+  font-size: 18px;  
+  min-width  : 400px;
+  color      : white;
+  position   : absolute;
+}
+
+.menu.align-left {
+  left: 40;
+  top : 50%;
+  transform: translate(0, -50%); 
+}
+
+.menu.align-top-left {
+  left: 40;
+  top : 40; 
+}
+
+.menu.align-top {
+  left: 50%;
+  top : 40;
+  transform: translate(-50%, 0); 
+}
+
+.menu.align-top-right {
+  right: 10;
+  top  : 40;
+}
+
+.menu.align-right {
+  right: 40;
+  top  : 50%;
+  transform: translate(0, -50%); 
+}
+
+.menu.align-bottom-right {
+  right : 40;
+  bottom: 40;
+}
+
+.menu.align-bottom {
+  left  : 50%;
+  bottom: 40;
+  transform: translate(-50%, 0); 
+}
+
+.menu.align-bottom-left {
+  left  : 40;
+  bottom: 40;
+}
+
+.menu.align-center {
+  left : 50%;
+  top  : 50%;
+  transform: translate(-50%, -50%); 
+}
+
+.menu .head {
+  background-image: url("https://cdn.discordapp.com/attachments/537357603819225098/541652736467402774/yyDwxYs.png");
+  border: 1px solid white;
+  text-align      : center;
+  height          : 65px;
+  line-height     : 70px;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 0px;
+  opacity: 0.9;
+  font-family: 'Play', sans-serif;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.menu .menu-items {
+  max-height : 1000px;
+  overflow-y : auto;
+  text-shadow: 1px 1px #262626;
+  border: 1px solid white;
+}
+
+.menu .menu-items .menu-item {
+  height          : 50px;
+  display         : block;
+  background-color: #262626;
+  height          : 30px;
+  line-height     : 30px;
+  color           : white;
+  padding-left    : 10px;
+  box-shadow      : inset 1px -0.1px 0px #1c1c1c;
+  font-family: 'Play', sans-serif;
+  text-shadow: 2px 2px #000000;
+  font-size       : 14px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.menu .menu-items .menu-item.selected {
+  color :white;
+  font-size: 15px;
+  font-family: 'Play', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  text-shadow: 2px 2px #000000;
+  border: 1px solid white;
+  border-left: 25px;
+  border-left-style: solid;
+  border-left-color: #1c1c1c;
+  border-right: 25px;
+  border-right-style: solid;
+  border-right-color: #1c1c1c;
+  background-color: #1c1c1c;
+}
+
+/* WebKit scrollbar properties */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(20, 20, 20, 0.7); 
+}
+::-webkit-scrollbar-thumb {
+    background: #888888; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555555; 
+}

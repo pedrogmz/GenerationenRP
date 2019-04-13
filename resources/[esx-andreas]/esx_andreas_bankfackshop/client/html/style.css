@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Syncopate|Unica+One');
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+
+body, html {
+	overflow-y: hidden;
+}
+/* main.css */
+
+button{ 
+    color: black;
+    background-color:  #585858;
+    font-family: 'Unica One', cursive;
+	font-size: 20px;
+    background-size: 50px;
+    margin: 15px auto;
+	padding: 15	px 90px;
+    cursor: pointer;
+    border-radius: 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+    width: 81%;
+    height: 14%;
+    display: inline-block;
+    position: relative;
+    left: 10%;
+	bottom: -240px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+#exitbank{
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    width: 4%;
+    height: 6%;
+    left: 93%;
+    bottom: 87%;
+    border-radius: 20px;
+    background-color: #585858;
+    font-size: 10px;
+	color: white;
+}
+
+h2{
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    left: 33%;
+    bottom: 60%;
+    font-size: 50px;
+	color: white;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+}
+
+h3{
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    left: 41%;
+    bottom: 52%;
+    font-size: 35px;
+	color: white;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+}
+
+h4{
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    left: 17%;
+    bottom: 42%;
+    font-size: 20px;
+	color: white;
+}
+
+#cancelbalance{
+	position: absolute;
+	left: 10%;
+	bottom: 25px;
+}
+
+.general{
+    background-color: #a39e9e;
+	background-repeat: no-repeat;
+	font-family: 'Unica One', cursive;
+	background-size: 620px 430px;
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+    padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+	border-style: solid;
+    border-radius: 20px;
+    border-color: #000000;
+}
+
+.balanceUI{
+    background-color: #a39e9e;
+	background-repeat: no-repeat;
+	font-family: 'Unica One', cursive;
+	background-size: 620px 430px;
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+    padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+	border-style: solid;
+    border-radius: 20px;
+    border-color: #000000;
+}
+
+button:hover{
+    border-style: solid;
+    border-color: #fff;
+   }
